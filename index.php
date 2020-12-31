@@ -2,15 +2,15 @@
 
 //database connection
 
-// $connect = new PDO("mysql:host=localhost;dbname=testing", "root", "");
+$connect = new PDO("mysql:host=localhost;dbname=testing", "root", "");
 
-// $query = "SELECT * FROM sample_datas";
+$query = "SELECT * FROM sample_datas";
 
-// $statement = $connect->prepare($query);
+$statement = $connect->prepare($query);
 
-// $statement->execute();
+$statement->execute();
 
-// $result = $statement->fetchAll();
+$result = $statement->fetchAll();
 
 ?>
 
